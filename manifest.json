@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+
+  "name": "Child Saver",
+  "description": "Limit internet access of your child",
+  "version": "1.0.0",
+  "icons": { "128": "child_128.png" },
+  "browser_action": {
+    "default_icon": "child_19.png",
+    "default_popup": "popup.html"
+  },
+
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ]
+}

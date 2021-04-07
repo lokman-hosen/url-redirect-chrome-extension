@@ -1,0 +1,1403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5cdd7967-16bc-4875-b485-24c2d2f585b2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/content.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/popup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/popup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/Console/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/Disease.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/Exceptions/Handler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/Http/Controllers/Auth/LoginController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/Http/Controllers/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/Http/Controllers/HomeController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/Http/Controllers/MainApiController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/Http/Controllers/MainController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/Http/Controllers/NavigationController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/Http/Controllers/UserQuestionsController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/Http/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/Http/Middleware/EncryptCookies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/Http/Middleware/Localization.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/Http/Middleware/PreventBackHistory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/Http/Middleware/TrimStrings.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/Http/Middleware/TrustProxies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/Http/Resources/QuestionResource.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/Image.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/Main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/Option.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/Providers/AppServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/Providers/AuthServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/Providers/BroadcastServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/Providers/EventServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/Providers/RouteServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/Question.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/TreatmentCenter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/UserFeedback.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/UserQuestion.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/helpers.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../artisan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootstrap/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootstrap/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brri_rice_doctor.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/broadcasting.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/database.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/filesystems.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/queue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/services.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/session.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/factories/UserFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database/seeds/DatabaseSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../drug-app/src/components/branch/branch.js" beforeDir="false" afterPath="$PROJECT_DIR$/../drug-app/src/components/branch/branch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../drug-app/src/components/header/navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/../drug-app/src/components/header/navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../drug-app/src/components/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/../drug-app/src/components/home/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../personal-portfolio/src/components/home/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/BRRI_E2B.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/BRRI_E2B_final.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/brri.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/css/animate-in.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/css/aquamarine.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/css/btn.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/css/nav.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/dartgta1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/data1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/firebase-messaging-sw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/222.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/Screenshot_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/app_bn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/app_en.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/app_home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/app_th.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/article (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/cover_bn_en.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/%253Cscript%253Ealert('XSS')%253C%252Fscript%253E.jpg-1576659135" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/%253Cscript%253Ealert('XSS')%253C%252Fscript%253E.jpg-1576659166" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/1577683432-disease-image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/1577776119-disease-image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/Factsheet_false-smut-002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/Stri moth.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/Ufra.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/alkalinity-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/armyworm-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/armyworm-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/aª¼aª+aªÜaºìaªÜaª+ aª½aªíaª+aª+aªé aªÅaª¼aªé aª¼aª»aª+aª+aºìaªò aª½aªíaª+aª+aªé.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/bacterial-leaf-blight-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/bacterial-leaf-blight-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/bacterial-leaf-blight-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/bacterial-leaf-blight-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/bacterial-leaf-streak-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/bacterial-leaf-streak-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/bacterial-leaf-streak-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/bacterial-leaf-streak.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/bacterial-ooze-dry.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/bacterial-ooze.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/bakanae-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/bakanae.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/birds-chestnut-munia-paul-bourdin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/birds-eurasian-tree-sparrow-tirso-paris.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/birds-scaly-breasted-munia-tirso-paris.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/birds-white-bellied-munia-paul-buordin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/blast-collar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/blast-leaf-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/blast-leaf-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/blast-leaf-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/blast-neck-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/blast-neck-panicle.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/blast-neck.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/blast-node.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/boron-toxicity-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/boron-toxicity-asparks.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/brown-spot-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/brown-spot-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/brown-spot-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/calcium-deficiency.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/coto-pakha-bishisto-purnango-poka.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/crop-prob-mgt-drought-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/crop-prob-mgt-herbicide-toxicity.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/cutworm-black-univ-florida.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/cutworm-damage.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/cutworm-g-mccormack-cinhp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/dim.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/drought-field.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/drought-water-stress.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/factsheet-gall-midge.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/factsheet-green-leafhopper-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/factsheet-mealy-bug.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/factsheet-planthopper-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/factsheet-rats.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/factsheet-rice-caseworm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/factsheet-rice-hispa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/factsheet-rice-skipper.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/factsheet-ricebug-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/factsheet-shorthorned-grasshopper.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/factsheet-thrips.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/false-smut-black-spores.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/golmasi-akranto.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/golmasi-poka.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/green-leafhopper.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/herbicide-toxicity.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/iron-toxicity-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/kara.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/leaf-folder-moth.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/leaf-folder.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/leaf-scald.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/mealy-bug-feeding.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/mora dig.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/nitrogen-deficiency.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/nitrogen-excess-leaf-color-chart.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/nutrients-boron-deficiency.jpg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/nutrients-boron-toxicity.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/nutrients-iron-toxicity.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/nutrients-magnesium-deficiency.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/nutrients-nitrogen-deficiency.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/nutrients-nitrogen-excess-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/nutrients-phosphorus-deficiency.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/nutrients-potassium-deficiency.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/nutrients-zinc-deficiency.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/pests-rat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/phosphorus-deficiency-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/phosphorus-deficiency-field.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/phosphorus-deficiency-thin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/planthopper-brown.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/planthopper-hopperburn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/postharvest-heatedairdrying-table.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/potassium-deficiency-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/potassium-deficiency-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/potassium-deficiency-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/potassium-deficiency.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/purush moth.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/rice-hispa-elongated-feeding.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/rice-hispa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/rice-skipper-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/rice-whorl-maggot-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/rice-whorl-maggot-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/rice-whorl-maggot-damage.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/root-knot-nematode.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/sada sish.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/salinity-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/salinity-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/sheath-blight-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/sheath-blight-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/sheath-rot-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/sheath-rot-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/sheath-rot-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/sheath-rot-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/stem-borer-larvae.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/stem-borer-whitehead.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/stem-borer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/stem-rot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/sulfur-deficiency-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/test5628.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/thrips-damage.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/tungro-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/tungro-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/tungro-field.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/disease-images/tungro-plant.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/download.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/google-play-badge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/google-play-badge_bn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/icons/about-us.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/icons/about-us.png.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/icons/about-us1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/icons/mobile-app.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/icons/mobile-app1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/icons/motamot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/icons/motamot1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/icons/proshno.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/icons/proshno1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/icons/somossa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/icons/somossa1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/icons/talika.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/icons/talika1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/iphone_cover_light-bk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/iphone_cover_light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/nitrogen diff bn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/nitrogen diff en.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/sdf05s-sds65df-5s5ed4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1562565910_rab-elite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1563608715_device-2019-07-18-180441.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1563608812_device-2019-07-18-180441_framed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1563608881_c0x9zbGGieEVdqA3Mf2BKjmmmjGsUlceuLPohNSq-702x336.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1563609015_rabMobileCourt210a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1563612353_c0x9zbGGieEVdqA3Mf2BKjmmmjGsUlceuLPohNSq-702x336.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1567334774_20190901_1645404507439261709454299.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1575881837_alkalinity-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1575947560_20191210_091219430186480491771839.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1575947647_20191210_0914023927795941032468588.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1575951411_20191210_1016435951238718908623369.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1575951612_20191210_1019595511190604215640436.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1575953750_20191210_1055387592580016229993918.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1575958130_201714051.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1575958475_emu8086v408r.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1575980745_20191210_1825358968637816870019625.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1575981826_20191210_1843411312576326194404139.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1575984764_20191210_1932355715820238000154633.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1575985393_20191210_1943091945346275.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1575991873_20191210_2131052429359807392477126.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1575993019_20191210_2150144421742302580567189.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1576041314_20191211_111504388005658216461388.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1576044669_20191211_1210193294896364845118673.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1576047210_IMG_20191210_101630.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1576052948_IMG_20191210_101630.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1576053602_20191210_1820176933177314621537991.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1576054192_20191210_1843411312576326194404139.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1576054361_20191210_1843411312576326194404139.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1576054857_Knapsack back tracking.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1576063663_ss.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1576087157_20191211_2359087933539992851259678.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1576132813_BanglabrosureComputer for Everyone.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1576139467_BanglabrosureComputer for Everyone.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1576140467_VID_20191211_215819.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1576140708_BanglabrosureComputer for Everyone.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1576141792_20191212_1509448257487419119356008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1576141888_VID-20191209-WA0002.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1576146720_20191212_163150324722687584349962.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1576146839_VID_20191211_215819.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1576146911_BanglabrosureComputer for Everyone.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1576149029_20191212_1710161715458247344943497.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1576386153_20191215_1102268383911186470058920.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1576386274_3_4.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1576386518_log1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1576389048_20191215_1150435921431715596468223.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1576389170_Screenshot_1576148801.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1576392795_New Microsoft Word Document (6).docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1576403454_102103AZMBX5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1576403536_102103AZMBX5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1576405019_102103AZMBX5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1576571481_20191217_1431063640759773261989445.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1576646434_20191218_1120258574118341216315765.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1576656641_102103AZMBX5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1576673695_20191218_1854435544145100939026134.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1577598132_102103AZMBX5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1577598519_56426083-close-up-of-yellow-paddy-rice-plant-spike-rice-field.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1577598856_20191229_1154121570706139.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1577599371_20191229_120248394976818.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1577599468_log1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1577602854_20191229_130050706155135.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1577638461_tryqa.com-ISTQB-Dumps-and-Mock-Tests-for-Foundation-Level-Paper-1 (1).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1577638541_Expt-6.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1577638898_Expt-5.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1577639250_CRC.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1577639524_14_4.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1577639589_20191229_2313052151409652918097747.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1577677615_Rules-of-Logo-Competition.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1577688072_20191230_124053.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1577688652_20191230_125040.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1577689040_20191230_125641.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1577692161_my notes.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1577873393_my notes.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1577873689_20200101_161438.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1577875346_Completed-bKash-Order-858.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1577876133_aª¬aºìaª¦aºçaª£aºçaª¿aºìaªƒaºçaª¦aª¿.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1577876297_Noor Privacy Policy.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1577876613_Free Web to app PR. D1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1578228072_demo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1578228622_Demo-doc.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1578228662_demo_doc.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1578809761_20200112_121545.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1578810306_20200112_122449.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1580623216_20200202_1200063540569487047271213.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1582634602_20200225_184315509400517589790871.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1595846407_FARDIN_passport.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/user-question-images/1595847453_Webp.net-resizeimage (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/web_bn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/images/web_en.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/js/animate-in.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/options.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/CHANGES.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/adapters/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/build-config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/ckeditor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/contents.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/af.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/az.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/bn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/bs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/cy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/de-ch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/en-au.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/en-ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/en-gb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/eo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/es-mx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/eu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/fo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/fr-ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/gl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/gu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/hi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/is.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/ka.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/km.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/ku.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/mk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/mn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/ms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/nb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/no.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/oc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/pt-br.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/si.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/sl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/sq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/sr-latn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/sr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/tt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/ug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/zh-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/lang/zh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/af.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/az.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/de-ch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/en-au.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/es-mx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/eu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/fo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/oc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/tt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/about/dialogs/about.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/about/dialogs/logo_ckeditor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/clipboard/dialogs/paste.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/dialog/dialogDefinition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/dialog/styles/dialog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/icons_hidpi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/image/dialogs/image.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/image/images/noimage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/link/dialogs/anchor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/link/dialogs/link.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/link/images/anchor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/link/images/hidpi/anchor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/magicline/images/hidpi/icon-rtl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/magicline/images/hidpi/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/magicline/images/icon-rtl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/magicline/images/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/pastefromgdocs/filter/default.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/pastefromword/filter/default.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/pastetools/filter/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/scayt/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/scayt/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/scayt/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/scayt/dialogs/dialog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/scayt/dialogs/options.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/scayt/dialogs/toolbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/af.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/az.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/cy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/de-ch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/en-au.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/en-ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/en-gb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/eo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/es-mx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/eu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/gl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/km.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/ku.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/nb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/no.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/oc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/si.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/sl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/sq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/sr-latn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/sr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/tt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/ug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/lang/zh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/specialchar/dialogs/specialchar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/table/dialogs/table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/tableselection/styles/tableselection.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/tabletools/dialogs/tableCell.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/widget/images/handle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/wsc/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/wsc/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/wsc/dialogs/ciframe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/wsc/dialogs/wsc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/wsc/dialogs/wsc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/wsc/dialogs/wsc_ie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/css/samples.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/img/github-top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/img/header-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/img/header-separator.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/img/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/img/navigation-tip.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/js/sample.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/js/sf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/old/ajax.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/old/api.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/old/appendto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/old/assets/inlineall/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/old/assets/outputxhtml/outputxhtml.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/old/assets/posteddata.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/old/assets/sample.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/old/assets/uilanguages/languages.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/old/datafiltering.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/old/dialog/assets/my_dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/old/dialog/dialog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/old/divreplace.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/old/enterkey/enterkey.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.fla" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/old/htmlwriter/assets/outputforflash/swfobject.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/old/htmlwriter/outputforflash.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/old/htmlwriter/outputhtml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/old/inlineall.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/old/inlinebycode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/old/inlinetextarea.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/old/jquery.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/old/magicline/magicline.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/old/readonly.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/old/replacebyclass.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/old/replacebycode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/old/sample.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/old/sample.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/old/sample_posteddata.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/old/tabindex.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/old/toolbar/toolbar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/old/uicolor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/old/uilanguages.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/old/wysiwygarea/fullpage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/old/xhtmlstyle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/toolbarconfigurator/css/fontello.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/toolbarconfigurator/font/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/toolbarconfigurator/font/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/toolbarconfigurator/font/fontello.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/toolbarconfigurator/font/fontello.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/toolbarconfigurator/font/fontello.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/toolbarconfigurator/font/fontello.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/toolbarconfigurator/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/toolbarconfigurator/js/abstracttoolbarmodifier.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/toolbarconfigurator/js/fulltoolbareditor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/toolbarconfigurator/js/toolbarmodifier.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/toolbarconfigurator/js/toolbartextmodifier.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/toolbarconfigurator/lib/codemirror/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/toolbarconfigurator/lib/codemirror/javascript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/toolbarconfigurator/lib/codemirror/neo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/skins/moono-lisa/dialog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/skins/moono-lisa/dialog_ie.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/skins/moono-lisa/dialog_ie8.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/skins/moono-lisa/dialog_iequirks.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/skins/moono-lisa/editor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/skins/moono-lisa/editor_gecko.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/skins/moono-lisa/editor_ie.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/skins/moono-lisa/editor_ie8.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/skins/moono-lisa/editor_iequirks.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/skins/moono-lisa/icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/skins/moono-lisa/icons_hidpi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/skins/moono-lisa/images/arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/skins/moono-lisa/images/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/skins/moono-lisa/images/hidpi/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/skins/moono-lisa/images/hidpi/lock-open.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/skins/moono-lisa/images/hidpi/lock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/skins/moono-lisa/images/hidpi/refresh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/skins/moono-lisa/images/lock-open.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/skins/moono-lisa/images/lock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/skins/moono-lisa/images/refresh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/skins/moono-lisa/images/spinner.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/skins/moono-lisa/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/ckeditor/vendor/promise.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/browse.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/cache/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/cache/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/cache/base.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/cache/theme_dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/cache/theme_dark.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/cache/theme_default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/cache/theme_default.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/conf/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/conf/config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/conf/upload.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/core/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/core/autoload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/core/bootstrap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/core/class/browser.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/core/class/minifier.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/core/class/uploader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/core/types/type_img.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/core/types/type_mime.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/css/000.base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/css/999.agent.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/css/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/doc/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/doc/Changelog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/doc/LICENSE.GPL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/doc/LICENSE.LGPL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/integration/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/integration/BolmerCMS.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/integration/drupal.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/js/000._jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/js/002._jqueryui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/js/006.jquery.uniform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/js/010.jquery.fixes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/js/020.jquery.rightClick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/js/021.jquery.taphold.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/js/029.jquery.agent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/js/030.jquery.helper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/js/031.jquery.md5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/js/040.object.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/js/041.dialogs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/js/050.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/js/060.toolbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/js/070.settings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/js/080.files.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/js/090.folders.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/js/091.menus.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/js/091.viewImage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/js/100.clipboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/js/110.dropUpload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/js/120.misc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/js/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/js_localize.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/lang/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/lang/af.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/lang/bg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/lang/ca.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/lang/cs.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/lang/da.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/lang/de.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/lang/el.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/lang/en.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/lang/es.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/lang/et.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/lang/fa.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/lang/fi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/lang/fr.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/lang/he.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/lang/hu.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/lang/id.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/lang/it.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/lang/ja.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/lang/lt.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/lang/lv.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/lang/nl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/lang/no.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/lang/pl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/lang/pt-br.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/lang/pt.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/lang/ro.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/lang/ru.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/lang/sk.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/lang/sv.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/lang/tr.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/lang/uk.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/lang/vi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/lang/zh-cn.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/lib/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/lib/class_fastImage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/lib/class_image.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/lib/class_image_gd.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/lib/class_image_gmagick.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/lib/class_image_imagick.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/lib/class_zipFolder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/lib/helper_dir.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/lib/helper_file.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/lib/helper_httpCache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/lib/helper_path.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/lib/helper_text.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/01.ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/02.misc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/css.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/bg_transparent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/..png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/.image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/avi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/bat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/bmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/bz2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/ccd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/cgi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/com.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/csh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/cue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/deb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/dll.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/doc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/docx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/exe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/fla.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/flv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/fon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/gif.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/gz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/htm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/html.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/ini.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/iso.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/jar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/java.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/jpeg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/jpg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/js.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/mds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/mdx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/mid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/midi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/mkv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/mov.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/mp3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/mp4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/mpeg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/mpg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/nfo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/nrg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/ogg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/pdf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/php.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/phps.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/pl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/pm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/png.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/ppt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/pptx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/psd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/qt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/rar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/rpm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/rtf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/sh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/sql.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/srt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/sub.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/swf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/tgz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/tif.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/tiff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/torrent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/ttf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/txt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/wav.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/wma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/xls.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/xlsx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/big/zip.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/..png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/.image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/avi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/bat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/bmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/bz2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/ccd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/cgi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/com.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/csh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/cue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/deb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/dll.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/doc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/docx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/exe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/fla.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/flv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/fon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/gif.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/gz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/htm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/html.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/ini.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/iso.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/jar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/java.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/jpeg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/jpg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/js.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/mds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/mdx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/mid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/midi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/mkv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/mov.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/mp3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/mp4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/mpeg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/mpg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/nfo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/nrg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/ogg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/pdf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/php.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/phps.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/pl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/pm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/png.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/ppt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/pptx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/psd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/qt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/rar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/rpm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/rtf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/sh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/sql.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/srt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/sub.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/swf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/tgz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/tif.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/tiff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/torrent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/ttf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/txt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/wav.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/wma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/xls.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/xlsx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/files/small/zip.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/icons/about.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/icons/clipboard-add.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/icons/clipboard-clear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/icons/clipboard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/icons/copy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/icons/delete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/icons/download.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/icons/folder-new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/icons/maximize.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/icons/move.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/icons/refresh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/icons/rename.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/icons/select.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/icons/settings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/icons/upload.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/icons/view.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/kcf_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/tree/denied.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/tree/folder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/tree/minus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/tree/plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/ui-icons_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/ui-icons_grey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/img/ui-icons_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/dark/js.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/01.ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/02.misc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/css.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/bg_transparent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/..png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/.image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/avi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/bat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/bmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/bz2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/ccd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/cgi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/com.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/csh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/cue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/deb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/dll.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/doc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/docx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/exe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/fla.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/flv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/fon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/gif.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/gz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/htm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/html.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/ini.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/iso.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/jar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/java.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/jpeg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/jpg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/js.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/mds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/mdx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/mid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/midi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/mkv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/mov.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/mp3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/mp4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/mpeg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/mpg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/nfo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/nrg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/ogg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/pdf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/php.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/phps.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/pl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/pm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/png.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/ppt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/pptx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/psd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/qt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/rar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/rpm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/rtf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/sh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/sql.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/srt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/sub.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/swf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/tgz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/tif.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/tiff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/torrent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/ttf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/txt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/wav.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/wma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/xls.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/xlsx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/big/zip.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/..png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/.image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/avi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/bat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/bmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/bz2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/ccd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/cgi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/com.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/csh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/cue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/deb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/dll.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/doc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/docx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/exe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/fla.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/flv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/fon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/gif.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/gz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/htm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/html.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/ini.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/iso.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/jar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/java.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/jpeg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/jpg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/js.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/mds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/mdx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/mid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/midi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/mkv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/mov.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/mp3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/mp4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/mpeg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/mpg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/nfo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/nrg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/ogg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/pdf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/php.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/phps.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/pl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/pm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/png.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/ppt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/pptx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/psd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/qt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/rar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/rpm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/rtf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/sh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/sql.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/srt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/sub.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/swf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/tgz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/tif.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/tiff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/torrent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/ttf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/txt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/wav.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/wma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/xls.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/xlsx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/files/small/zip.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/icons/about.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/icons/clipboard-add.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/icons/clipboard-clear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/icons/clipboard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/icons/copy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/icons/delete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/icons/download.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/icons/folder-new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/icons/maximize.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/icons/move.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/icons/refresh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/icons/rename.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/icons/select.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/icons/settings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/icons/upload.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/icons/view.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/kcf_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/tree/denied.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/tree/folder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/tree/minus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/tree/plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/ui-icons_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/img/ui-icons_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/themes/default/js.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/tpl/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/tpl/tpl_browser.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/tpl/tpl_css.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/tpl/tpl_javascript.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/templateEditor/kcfinder/upload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../public/web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/assets/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/assets/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/assets/js/components/ExampleComponent.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/assets/sass/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/assets/sass/app.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/lang/bn/home.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/lang/en/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/lang/en/home.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/lang/en/pagination.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/lang/en/passwords.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/lang/en/validation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/admin/asked-question.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/admin/disease-list.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/admin/disease-view.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/admin/feedbacks.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/admin/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/admin/notification.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/admin/question-view.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/admin/questions.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/admin/site-question-view.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/auth/login.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/auth/passwords/email.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/auth/passwords/reset.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/auth/register.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/home.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/layouts/010120app.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/layouts/admin-layout.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/layouts/app.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/layouts/app.blade__.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/pages/about.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/pages/details.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/pages/diagnose.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/pages/feedback.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/pages/problems.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/pages/questions.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resources/views/pages/treatment_center.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../routes/api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../routes/channels.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../routes/console.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../routes/web----.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../routes/web.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../storage/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../storage/app/public/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../storage/framework/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../storage/framework/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../storage/framework/sessions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../storage/framework/testing/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../storage/framework/views/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../storage/logs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/CreatesApplication.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/Feature/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/TestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/Unit/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webpack.mix.js" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manifest.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/content.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/popup.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/popup.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="tsconfig.json" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/jquery.min.js" />
+        <option value="$PROJECT_DIR$/popup.js" />
+        <option value="$PROJECT_DIR$/manifest.json" />
+        <option value="$PROJECT_DIR$/popup.html" />
+        <option value="$PROJECT_DIR$/content.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="54" />
+    <option name="y" value="27" />
+    <option name="width" value="1866" />
+    <option name="height" value="1053" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="unicef" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unicef" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Block-Site" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5cdd7967-16bc-4875-b485-24c2d2f585b2" name="Default Changelist" comment="" />
+      <created>1617780362317</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617780362317</updated>
+      <workItem from="1617780365095" duration="3766000" />
+      <workItem from="1617786331793" duration="14903000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="18669000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="54" y="27" width="1866" height="1053" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3293348" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/tsconfig.json" />
+    <entry file="file://$PROJECT_DIR$/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="89390" selection-start-line="1" selection-start-column="89390" selection-end-line="1" selection-end-column="89390" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="9725" column="4" selection-start-line="9725" selection-start-column="4" selection-end-line="9725" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/popup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/popup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
